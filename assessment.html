@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Assessment Portal</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='assessment.css') }}">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>📚 Student Assessment Portal</h1>
+      <p>Empowering learning through interactive assessments</p>
+    </header>
+
+    <div class="menu-grid">
+      <a href="{{ url_for('takeassessment') }}" class="menu-card">
+        <h2>📝 Take Assessment</h2>
+        <p>Start your assigned tests here.</p>
+      </a>
+
+      <a href="{{ url_for('createassessment') }}" class="menu-card">
+        <h2>🧑‍🏫 Create Assessment</h2>
+        <p>Teachers can create tests and quizzes.</p>
+      </a>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 DIGI SHIKSHA | Powered by Open EdTech</p>
+    </footer>
+  </div>
+</body>
+</html>
