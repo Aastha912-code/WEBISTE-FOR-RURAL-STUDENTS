@@ -1,5 +1,5 @@
 # WEBISTE-FOR-RURAL-STUDENTS
-This project presents an educational platform designed to enhance student learning through interactive digital resources, gamified instruction, and foundational robotics modules. It emphasizes accessibility for students in low-connectivity regions by offering offline features and parent notification mechanisms for balanced digital use.
+This group project presents an educational platform designed to enhance student learning through interactive digital resources, gamified instruction, and foundational robotics modules. It emphasizes accessibility for students in low-connectivity regions by offering offline features and parent notification mechanisms for balanced digital use.
 
 🚀 Features
 🧑‍🏫 User Authentication: Secure login/signup system using Python and MySQL
